@@ -77,7 +77,7 @@ Este repositorio es un proyecto personal, pero si quieres seguir el reto eres bi
 Puedes crear tu propia versión con un fork o dejar comentarios/sugerencias en los issues. Ten en cuenta que no soy experta en el área y hay temas que conozco y otros en los que también seré totalmente nueva. Este es un ejercicio de aprendizaje y exploración pero de una forma más ordenada. 
 
 ---
-## Herramientas sugeridas en caso de que quieras seguir el reto
+## Herramientas en caso de que quieras seguir el reto
 
 - Python 3.10 o superior
 - VSCode o Jupyter Notebook
