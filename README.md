@@ -27,9 +27,9 @@ To condense, organize, and improve my knowledge of the language in order to have
 The challenge is divided into 30 days. Each day includes:
 
 - A central topic.
-- An explanation or notebook.
+- An explanation (notes).
 - Practice exercises.
-- (Sometimes) Personal reflection or notes.
+- (Sometimes) Personal reflection.
 
 ---
 
