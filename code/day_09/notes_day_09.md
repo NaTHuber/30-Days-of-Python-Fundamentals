@@ -60,4 +60,4 @@ print(unique_numbers)  # {1, 2, 3, 4, 5}
 ```
 
 ## Small note
-> Use tuples when you want fixed collections of data (like coordinates or database keys). Use sets when you need to remove duplicates or perform mathematical-like operations.
+> Use tuples when you want fixed collections of data (like coordinates or database keys). Use sets when you need to remove duplicates or perform mathematical-like operations 🌱
