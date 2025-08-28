@@ -55,6 +55,19 @@ import mymath
 print(mymath.add(3, 5))      # 8
 print(mymath.multiply(4, 6)) # 24
 ```
+## Extra: What is `__pycache__`?
+
+When Python imports a module, it compiles it into bytecode (`.pyc` files). These files are stored in `__pycache__`.
+
+Example:
+
+```python
+mymath.cpython-312.pyc
+```
+
+- `cpython` → the interpreter (CPython is the default Python implementation).
+
+- `312` → your Python version (For example mine is: 3.12).
 
 ## Small note 
 > Modules are like **toolboxes**. Instead of reinventing the wheel, Python lets you reuse code whether it’s your own or part of the massive standard library. Mastering imports makes your programs cleaner, more modular, and scalable 🌱
