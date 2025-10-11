@@ -15,7 +15,7 @@ Apply the knowledge acquired over the last few days in a practical project: **Co
 - **What actions/functions are required?:** Show, add, update, delate, delate, search. 
 - **Do I need to repeat anything?:** Yes, the menu for asking options. 
 - **Do i need to decide anything?:** Yes, the option I want to choose (add, search, delete, etc)
-- **Does the date need to persist?:** Yes, i will save it in a `.txt` file. 
+- **Does the data need to persist?:** Yes, i will save it in a `.txt` file. 
 
 ## Workflow 
 ```mermaid 
