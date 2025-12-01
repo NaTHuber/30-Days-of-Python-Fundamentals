@@ -13,10 +13,30 @@ In python fuctions can be:
 - Passed as arguments 
 - Returned from other functions 
 **Example**
-```
+```python
 def greet(name):
     return f"Hello {name}!"
-    
+
 say_hello = greet # Assing function to variable
 print(say_hello("Natalia"))
+```
+
+## Higher-Order Functions
+A higher-order function is simply a function that:
+
+- receives another function
+    
+    **or**
+
+- returns another function
+
+**Example**
+```python
+def apply_operation(func, value):
+    return func(value)
+
+def square(x):
+    return x**2
+
+print(apply_operation(square, 5))
 ```
