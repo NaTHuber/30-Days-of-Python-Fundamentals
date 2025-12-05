@@ -17,7 +17,7 @@ In python fuctions can be:
 def greet(name):
     return f"Hello {name}!"
 
-say_hello = greet # Assing function to variable
+say_hello = greet
 print(say_hello("Natalia"))
 ```
 
@@ -39,4 +39,23 @@ def square(x):
     return x**2
 
 print(apply_operation(square, 5))
+```
+## Lambda expressions 
+Small anonymous functions. 
+They are perfect for small one-line transformations 
+```python 
+square = lambda x: x**2
+print(square(8)
+```
+commonly used in:
+- sorted()
+- map(), filter()
+- Pandas operations 
+- Callbacks in ML pipelines 
+
+**Example** Sorting with lambda
+```python
+students = [("Marcel", 30),("Sol", 10),("Luis",20)] 
+students_sorted = sorted(students, key = lambda s: s[1])
+print(students_sorted)
 ```
