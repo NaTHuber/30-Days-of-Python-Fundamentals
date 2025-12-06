@@ -73,3 +73,28 @@ cube = power_of(3)
 
 print(square(5), cube(5))
 ``` 
+
+## *args and **kwargs 
+Used to built build flexible and reusable functions 
+
+***args** accepts any number of positional arguments 
+```python 
+def add_all(*args):
+    return sum(args)
+print(add_all(1,2,3,4))
+```
+****kwargs** accepts key = value arguments 
+```python 
+def describe_person(**kwargs):
+    for key, value in kwargs.items():
+        print(key, ":", value)
+
+describe_person(name="Natalia", age=26, country="Mexico")
+```
+**Combined**
+```python
+def demo(a, *args, **kwargs):
+    print(a, args, kwargs)
+
+demo(10, 1, 2, 3, name="Nat", hobby="Physics")
+```
