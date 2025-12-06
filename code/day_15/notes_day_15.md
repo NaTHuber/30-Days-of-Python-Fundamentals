@@ -59,3 +59,17 @@ students = [("Marcel", 30),("Sol", 10),("Luis",20)]
 students_sorted = sorted(students, key = lambda s: s[1])
 print(students_sorted)
 ```
+## Returning functions 
+Important concept for understanding closures 
+
+```python 
+def power_of(n):
+    def exponent(x):
+        return x ** n
+    return exponent
+
+square = power_of(2)
+cube = power_of(3)
+
+print(square(5), cube(5))
+``` 
